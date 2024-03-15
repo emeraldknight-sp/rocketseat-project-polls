@@ -1,0 +1,72 @@
+<h1 align="center">Rocketseat: Polls</h1>
+
+<p align="center">
+  <img alt="logo" src=".github/logo.webp" width="20%">
+</p>
+
+This project is the development of an API that serves to store results from a poll and that returns results in real time using the necessary means for this, here using databases, ORMs, some standards and validations so that the data can be checked and validated so that they are persisted.
+
+<p align="center">
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
+
+## 🔗 Links
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/davidalmeidadev)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://instagram.com/davidalmeidadev)
+[![Brave](https://img.shields.io/badge/Portfolio-yellow?style=for-the-badge&logo=Brave&logoColor=white)](https://react-project-portfolio.vercel.app/)
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
+## 🚀 Tecnologies
+
+This project was developed with the following technologies:
+
+- JS ES6+
+- [Node e Yarn](https://nodejs.org/)
+- [Prisma](https://www.prisma.io/docs)
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [Redis](https://redis.io/docs/)
+- [PostgreSQL](https://www.postgresql.org/docs/)
+- [Docker](https://docs.docker.com/)
+- [Fastify](https://fastify.dev/docs/latest/)
+- [Zod](https://zod.dev/)
+
+## 💻 Project
+
+The project is an API developed with the Fastify framework, known for its efficiency and speed of execution. It utilizes the "@fastify/cookie" and "@fastify/websocket" dependencies to provide cookie management capabilities and support real-time communication via websockets, respectively. Additionally, it makes use of Prisma ORM (@prisma/client) to interact with the database and store poll data efficiently. The project also includes the use of Redis (ioredis) to manage data caching and improve API performance, and Zod for data validation. In the development environment, tools such as TypeScript, ESLint with configuration for TypeScript and Prettier are used to ensure code quality and consistency.
+
+The API serves as a real-time polling platform, allowing users to vote and track results instantly. Websockets are used to provide real-time updates on votes, ensuring an interactive experience for users. Using Prisma ORM, the API stores poll data efficiently in the database, providing adequate scalability to handle large volumes of votes. Using Redis for cache management helps optimize API performance while reducing the load on the database. With a solid foundation of development tools such as TypeScript and ESLint, the project maintains clean, typed, and bug-free code, ensuring an efficient and reliable development experience.
+
+## 🏡 Get started
+
+Installing project dependencies
+
+```sh
+yarn install
+```
+
+Application initialization
+
+```sh
+yarn dev
+```
+
+Containers initialization
+
+```sh
+docker compose up -d
+```
+
+## 🔖 Layout
+
+You can see the project routes below.
+
+<p align="center">
+  <img alt="layout" src=".github/layout.webp" width="100%">
+</p>
+
+## 📝 License
+
+This project is under the [MIT license](./LICENSE).
